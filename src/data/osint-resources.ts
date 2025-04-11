@@ -113,16 +113,28 @@ export const osintCategories: Category[] = [
         name: "Face Search",
         resources: [
           {
-            id: "pimeyes",
-            title: "PimEyes",
-            url: "https://pimeyes.com",
-            description: "Face search engine with reverse image search capabilities."
+            id: "facecheck",
+            title: "FaceCheck.ID",
+            url: "https://facecheck.id/",
+            description: "Facial recognition search engine for identifying people from photos."
           },
           {
-            id: "clearview-ai",
-            title: "Clearview AI",
-            url: "https://clearview.ai",
-            description: "Facial recognition technology used by law enforcement."
+            id: "tineye",
+            title: "TinEye",
+            url: "https://tineye.com/",
+            description: "Reverse image search engine to find image sources and track usage."
+          },
+          {
+            id: "copyseeker",
+            title: "Copyseeker",
+            url: "https://copyseeker.net/",
+            description: "Tool to detect AI-generated and plagiarized content."
+          },
+          {
+            id: "lensoai",
+            title: "Lenso AI",
+            url: "https://lenso.ai/en",
+            description: "AI-powered tool for reverse image search and visual content analysis."
           }
         ]
       },
