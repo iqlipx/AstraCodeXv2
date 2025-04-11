@@ -135,6 +135,12 @@ export const osintCategories: Category[] = [
             title: "Lenso AI",
             url: "https://lenso.ai/en",
             description: "AI-powered tool for reverse image search and visual content analysis."
+          },
+          {
+            "id": "pimeyes",
+            "title": "PimEyes",
+            "url": "https://pimeyes.com/en",
+            "description": "Online face search engine using facial recognition to find images of a person across the internet."
           }
         ]
       },
