@@ -24,83 +24,88 @@ export const osintCategories: Category[] = [
     name: "Search Engines",
     subfolders: [
       {
-    id: "udm14",
-    title: "UDM14",
-    url: "https://udm14.com/",
-    description: 'Appends "udm=14" to Google Search URLs for AI-free, ad-free results.'
-  },
-  {
-    id: "searxng",
-    title: "SearXNG",
-    url: "https://searx.bndkt.io/",
-    description: "Open-source, privacy-respecting metasearch engine that aggregates results."
-  },
-  {
-    id: "bing",
-    title: "Bing",
-    url: "https://www.bing.com/",
-    description: "Microsoft's search engine for web, image, and video results."
-  },
-  {
-    id: "yahoo",
-    title: "Yahoo",
-    url: "https://www.yahoo.com/",
-    description: "Web search engine and news aggregator powered by Bing."
-  },
-  {
-    id: "duckduckgo",
-    title: "DuckDuckGo",
-    url: "https://duckduckgo.com/",
-    description: "Privacy-focused search engine that doesn't track users."
-  },
-  {
-    id: "brave",
-    title: "Brave Search",
-    url: "https://search.brave.com/",
-    description: "Privacy-first search engine built into the Brave browser."
-  },
-  {
-    id: "yandex",
-    title: "Yandex",
-    url: "https://yandex.com/",
-    description: "Russia’s leading search engine with AI-powered results."
-  },
-  {
-    id: "wayback",
-    title: "Wayback Machine",
-    url: "https://web.archive.org/",
-    description: "Digital web archive to view historical versions of websites."
-  },
-  {
-    id: "baidu",
-    title: "Baidu",
-    url: "https://www.baidu.com/",
-    description: "China’s top search engine with web and AI-driven features."
-  },
-  {
-    id: "ecosia",
-    title: "Ecosia",
-    url: "https://www.ecosia.org/",
-    description: "Eco-friendly search engine that plants trees using ad revenue."
-  },
-  {
-    id: "startpage",
-    title: "Startpage",
-    url: "https://www.startpage.com/",
-    description: "Privacy-focused search engine delivering Google results without tracking."
-  },
-  {
-    id: "13tabs",
-    title: "13Tabs",
-    url: "https://www.13tabs.com/",
-    description: "Indian search engine focused on privacy and unbiased results."
-  },
-  {
-    id: "qmamu",
-    title: "Qmamu",
-    url: "https://qmamu.com/",
-    description: "Indian-made search engine offering web, news, and AI-powered searches."
-  }
+        id: "general-search",
+        name: "General Search",
+        resources: [
+          
+              {
+                id: "udm14",
+                title: "UDM14",
+                url: "https://udm14.com/",
+                description: 'Appends "udm=14" to Google Search URLs for AI-free, ad-free results.'
+              },
+              {
+                id: "searxng",
+                title: "SearXNG",
+                url: "https://searx.bndkt.io/",
+                description: "Open-source, privacy-respecting metasearch engine that aggregates results."
+              },
+              {
+                id: "bing",
+                title: "Bing",
+                url: "https://www.bing.com/",
+                description: "Microsoft's search engine for web, image, and video results."
+              },
+              {
+                id: "yahoo",
+                title: "Yahoo",
+                url: "https://www.yahoo.com/",
+                description: "Web search engine and news aggregator powered by Bing."
+              },
+              {
+                id: "duckduckgo",
+                title: "DuckDuckGo",
+                url: "https://duckduckgo.com/",
+                description: "Privacy-focused search engine that doesn't track users."
+              },
+              {
+                id: "brave",
+                title: "Brave Search",
+                url: "https://search.brave.com/",
+                description: "Privacy-first search engine built into the Brave browser."
+              },
+              {
+                id: "yandex",
+                title: "Yandex",
+                url: "https://yandex.com/",
+                description: "Russia’s leading search engine with AI-powered results."
+              },
+              {
+                id: "wayback",
+                title: "Wayback Machine",
+                url: "https://web.archive.org/",
+                description: "Digital web archive to view historical versions of websites."
+              },
+              {
+                id: "baidu",
+                title: "Baidu",
+                url: "https://www.baidu.com/",
+                description: "China’s top search engine with web and AI-driven features."
+              },
+              {
+                id: "ecosia",
+                title: "Ecosia",
+                url: "https://www.ecosia.org/",
+                description: "Eco-friendly search engine that plants trees using ad revenue."
+              },
+              {
+                id: "startpage",
+                title: "Startpage",
+                url: "https://www.startpage.com/",
+                description: "Privacy-focused search engine delivering Google results without tracking."
+              },
+              {
+                id: "13tabs",
+                title: "13Tabs",
+                url: "https://www.13tabs.com/",
+                description: "Indian search engine focused on privacy and unbiased results."
+              },
+              {
+                id: "qmamu",
+                title: "Qmamu",
+                url: "https://qmamu.com/",
+                description: "Indian-made search engine offering web, news, and AI-powered searches."
+              }
         ]
       },
       {
