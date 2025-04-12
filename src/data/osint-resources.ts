@@ -174,7 +174,10 @@ export const osintCategories: Category[] = [
     id: "social-media-tools",
     name: "Social Media Tools",
     subfolders: [
-        
+      {
+        id: "twitter-tools",
+        name: "Twitter Tools",
+        resources: [
           {
             id: "nitter",
             title: "Nitter",
