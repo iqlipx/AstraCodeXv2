@@ -27,85 +27,85 @@ export const osintCategories: Category[] = [
         id: "general-search",
         name: "General Search",
         resources: [
-          
-              {
-                id: "udm14",
-                title: "UDM14",
-                url: "https://udm14.com/",
-                description: 'Appends "udm=14" to Google Search URLs for AI-free, ad-free results.'
-              },
-              {
-                id: "searxng",
-                title: "SearXNG",
-                url: "https://searx.bndkt.io/",
-                description: "Open-source, privacy-respecting metasearch engine that aggregates results."
-              },
-              {
-                id: "bing",
-                title: "Bing",
-                url: "https://www.bing.com/",
-                description: "Microsoft's search engine for web, image, and video results."
-              },
-              {
-                id: "yahoo",
-                title: "Yahoo",
-                url: "https://www.yahoo.com/",
-                description: "Web search engine and news aggregator powered by Bing."
-              },
-              {
-                id: "duckduckgo",
-                title: "DuckDuckGo",
-                url: "https://duckduckgo.com/",
-                description: "Privacy-focused search engine that doesn't track users."
-              },
-              {
-                id: "brave",
-                title: "Brave Search",
-                url: "https://search.brave.com/",
-                description: "Privacy-first search engine built into the Brave browser."
-              },
-              {
-                id: "yandex",
-                title: "Yandex",
-                url: "https://yandex.com/",
-                description: "Russia’s leading search engine with AI-powered results."
-              },
-              {
-                id: "wayback",
-                title: "Wayback Machine",
-                url: "https://web.archive.org/",
-                description: "Digital web archive to view historical versions of websites."
-              },
-              {
-                id: "baidu",
-                title: "Baidu",
-                url: "https://www.baidu.com/",
-                description: "China’s top search engine with web and AI-driven features."
-              },
-              {
-                id: "ecosia",
-                title: "Ecosia",
-                url: "https://www.ecosia.org/",
-                description: "Eco-friendly search engine that plants trees using ad revenue."
-              },
-              {
-                id: "startpage",
-                title: "Startpage",
-                url: "https://www.startpage.com/",
-                description: "Privacy-focused search engine delivering Google results without tracking."
-              },
-              {
-                id: "13tabs",
-                title: "13Tabs",
-                url: "https://www.13tabs.com/",
-                description: "Indian search engine focused on privacy and unbiased results."
-              },
-              {
-                id: "qmamu",
-                title: "Qmamu",
-                url: "https://qmamu.com/",
-                description: "Indian-made search engine offering web, news, and AI-powered searches."
-              }
+
+          {
+            id: "udm14",
+            title: "UDM14",
+            url: "https://udm14.com/",
+            description: 'Appends "udm=14" to Google Search URLs for AI-free, ad-free results.'
+          },
+          {
+            id: "searxng",
+            title: "SearXNG",
+            url: "https://searx.bndkt.io/",
+            description: "Open-source, privacy-respecting metasearch engine that aggregates results."
+          },
+          {
+            id: "bing",
+            title: "Bing",
+            url: "https://www.bing.com/",
+            description: "Microsoft's search engine for web, image, and video results."
+          },
+          {
+            id: "yahoo",
+            title: "Yahoo",
+            url: "https://www.yahoo.com/",
+            description: "Web search engine and news aggregator powered by Bing."
+          },
+          {
+            id: "duckduckgo",
+            title: "DuckDuckGo",
+            url: "https://duckduckgo.com/",
+            description: "Privacy-focused search engine that doesn't track users."
+          },
+          {
+            id: "brave",
+            title: "Brave Search",
+            url: "https://search.brave.com/",
+            description: "Privacy-first search engine built into the Brave browser."
+          },
+          {
+            id: "yandex",
+            title: "Yandex",
+            url: "https://yandex.com/",
+            description: "Russia’s leading search engine with AI-powered results."
+          },
+          {
+            id: "wayback",
+            title: "Wayback Machine",
+            url: "https://web.archive.org/",
+            description: "Digital web archive to view historical versions of websites."
+          },
+          {
+            id: "baidu",
+            title: "Baidu",
+            url: "https://www.baidu.com/",
+            description: "China’s top search engine with web and AI-driven features."
+          },
+          {
+            id: "ecosia",
+            title: "Ecosia",
+            url: "https://www.ecosia.org/",
+            description: "Eco-friendly search engine that plants trees using ad revenue."
+          },
+          {
+            id: "startpage",
+            title: "Startpage",
+            url: "https://www.startpage.com/",
+            description: "Privacy-focused search engine delivering Google results without tracking."
+          },
+          {
+            id: "13tabs",
+            title: "13Tabs",
+            url: "https://www.13tabs.com/",
+            description: "Indian search engine focused on privacy and unbiased results."
+          },
+          {
+            id: "qmamu",
+            title: "Qmamu",
+            url: "https://qmamu.com/",
+            description: "Indian-made search engine offering web, news, and AI-powered searches."
+          }
         ]
       },
       {
@@ -172,17 +172,29 @@ export const osintCategories: Category[] = [
   },
   {
     id: "social-media-tools",
-    name: "Social Media Tools",
+    name: "Social Media",
     subfolders: [
       {
         id: "twitter-tools",
-        name: "Twitter Tools",
+        name: "X(Twitter)",
         resources: [
           {
             id: "nitter",
             title: "Nitter",
             url: "https://nitter.net/",
             description: "Privacy-respecting front-end for Twitter that doesn't require JavaScript or an account."
+          },
+          {
+            "id": "getdaytrends",
+            "title": "GetDayTrends",
+            "url": "https://getdaytrends.com/",
+            "description": "Tool to track and view real-time and historical Twitter trending topics by location."
+          },
+          {
+            "id": "instalker",
+            "title": "Instalker",
+            "url": "https://instalker.org/",
+            "description": "Twitter wb viewer and analyzer to explore public profiles, posts, and interactions anonymously."
           },
           {
             id: "heavytweetmap",
@@ -236,91 +248,237 @@ export const osintCategories: Category[] = [
       },
       {
         id: "facebook-tools",
-        name: "Facebook Tools",
+        name: "Facebook",
         resources: [
+
           {
-            id: "fb-graph-search",
-            title: "Facebook Graph Search",
-            url: "https://inteltechniques.com/osint/facebook.html",
-            description: "Custom Facebook search queries through Graph API."
+            "id": "facebookmatrix",
+            "title": "Facebook Matrix",
+            "url": "https://plessas.net/facebookmatrix",
+            "description": "Formulas for Searching Facebook – a tool that helps craft advanced Facebook search queries parameters."
           },
           {
-            id: "whopostedwhat",
-            title: "Who Posted What",
-            url: "https://whopostedwhat.com",
-            description: "Facebook post search engine by date and keyword."
+            "id": "instagramexplorer",
+            "title": "Instagram Explorer",
+            "url": "https://www.osintcombine.com/free-osint-tools/instagram-explorer",
+            "description": "A tool that enables searching for Instagram images by date and location, facilitating efficient open-source intelligence gathering."
+          },          
+          {
+            "id": "facebookimagesearch",
+            "title": "Facebook Image Search (Google CSE)",
+            "url": "https://cse.google.com/cse?cx=013991603413798772546:jyvyp2ppxma#gsc.tab=0",
+            "description": "Google Custom Search Engine for finding public Facebook images."
+          },
+          {
+            "id": "facebooksearchcse",
+            "title": "Facebook Search (Google CSE)",
+            "url": "https://cse.google.com/cse?cx=95ae46262a5f2958e",
+            "description": "Google Custom Search Engine to search public Facebook posts and profiles."
+          },
+          {
+            "id": "facebookadslibrary",
+            "title": "Facebook Ads Library",
+            "url": "https://www.facebook.com/ads/library/",
+            "description": "Official tool by Meta to view active advertisements running on Facebook and Instagram."
           }
         ]
       },
       {
         id: "instagram-tools",
-        name: "Instagram Tools",
+        name: "Instagram",
         resources: [
           {
-            id: "instaloader",
-            title: "Instaloader",
-            url: "https://instaloader.github.io",
-            description: "Tool to download Instagram profiles, posts, hashtags, stories."
+            "id": "imginn",
+            "title": "ImgInn",
+            "url": "https://imginn.com/",
+            "description": "Instagram viewer that allows anonymous browsing of public profiles, stories, and posts."
           },
           {
-            id: "osintgram",
-            title: "Osintgram",
-            url: "https://github.com/Datalux/Osintgram",
-            description: "OSINT tool on Instagram to collect data from public profiles."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    id: "geolocation-tools",
-    name: "Geolocation Tools",
-    subfolders: [
-      {
-        id: "maps",
-        name: "Maps",
-        resources: [
-          {
-            id: "google-maps",
-            title: "Google Maps",
-            url: "https://maps.google.com",
-            description: "Comprehensive mapping service with satellite imagery and street view."
+            "id": "metahashtags",
+            "title": "MetaHashtags",
+            "url": "https://metahashtags.com/",
+            "description": "Tool to generate and analyze trending Instagram hashtags for better reach and engagement."
           },
           {
-            id: "openstreetmap",
-            title: "OpenStreetMap",
-            url: "https://www.openstreetmap.org",
-            description: "Collaborative, editable world map created by contributors."
+            "id": "dumpor",
+            "title": "Dumpor",
+            "url": "https://dumpor.io/",
+            "description": "Instagram story viewer and analyzer for exploring profiles without logging in."
           },
           {
-            id: "wikimapia",
-            title: "Wikimapia",
-            url: "http://wikimapia.org",
-            description: "Collaborative mapping project combining Google Maps with wiki system."
+            "id": "pixnoy",
+            "title": "Pixnoy",
+            "url": "https://www.pixnoy.com/",
+            "description": "Instagram story and profile viewer for viewing public content anonymously."
+          },
+          {
+            "id": "instahunt",
+            "title": "InstaHunt",
+            "url": "https://instahunt.huntintel.io/",
+            "description": "OSINT tool designed to uncover Instagram account details using various search techniques."
           }
         ]
       },
       {
-        id: "satellite-imagery",
-        name: "Satellite Imagery",
+        id: "linkedin-tools",
+        name: "Linkedin",
         resources: [
           {
-            id: "sentinel-hub",
-            title: "Sentinel Hub",
-            url: "https://www.sentinel-hub.com",
-            description: "Access to satellite imagery from multiple sources."
+            "id": "recruitin",
+            "title": "Recruitin",
+            "url": "https://recruitin.net/",
+            "description": "A tool to generate advanced Boolean search queries for LinkedIn, GitHub, and other platforms."
           },
           {
-            id: "earthexplorer",
-            title: "USGS Earth Explorer",
-            url: "https://earthexplorer.usgs.gov",
-            description: "Access to satellite imagery from the U.S. Geological Survey."
+            "id": "linkedinsearchcse",
+            "title": "LinkedIn User Search (Google CSE)",
+            "url": "https://cse.google.com/cse?cx=daaf18e804f81bed0",
+            "description": "Google Custom Search Engine for finding public LinkedIn profiles."
           },
           {
-            id: "nasa-worldview",
-            title: "NASA Worldview",
-            url: "https://worldview.earthdata.nasa.gov",
-            description: "Browse and download NASA satellite imagery."
+            "id": "intelxlinkedin",
+            "title": "LinkedIn OSINT Tools – IntelX",
+            "url": "https://intelx.io/tools?tab=linkedin",
+            "description": "A collection of LinkedIn search and analysis tools provided by IntelligenceX for OSINT investigations."
+          }
+        ]
+      },
+      {
+        id: "pinterest",
+        name: "Pinterest",
+        resources: [
+          {
+            "id": "pinterest-sitemap",
+            "title": "Pinterest Pinners Sitemap",
+            "url": "https://www.pinterest.com/html_sitemap/pinners_p.html",
+            "description": "A public sitemap that lists Pinterest user profiles alphabetically, useful for OSINT and user discovery."
+          }
+        ]
+      },
+      {
+        id: "spotify-tools",
+        name: "Spotify",
+        resources: [
+          {
+            "id": "spotifyplaylistanalyzer",
+            "title": "Spotify Playlist Analyzer",
+            "url": "https://www.chosic.com/spotify-playlist-analyzer/",
+            "description": "Analyze any Spotify playlist to uncover detailed statistics such as top genres, moods, artists, decades, and more. Organize, filter, and export playlist data for deeper musical insights."
+          }
+        ]
+      },
+      {
+        id: "twitch-tools",
+        name: "Twitch",
+        resources: [
+          {
+            "id": "twitchtracker",
+            "title": "TwitchTracker",
+            "url": "https://twitchtracker.com/",
+            "description": "Provides analytics and statistics for Twitch streamers, including viewer counts, follower trends, and stream history."
+          },
+          {
+            "id": "sullygnome",
+            "title": "SullyGnome",
+            "url": "https://sullygnome.com/",
+            "description": "Detailed Twitch analytics platform offering insights on stream performance, games, and audience metrics."
+          },
+          {
+            "id": "twitchstats",
+            "title": "TwitchStats",
+            "url": "https://twitchstats.net/",
+            "description": "Tracks Twitch channels and games with live statistics, historical data, and trending streamers."
+          }
+        ]
+      },
+      {
+        id: "github-tools",
+        name: "GitHub",
+        resources: [
+
+          {
+            "id": "githuntx",
+            "title": "GitHuntX",
+            "url": "https://githuntx.vercel.app/",
+            "description": "GitHuntX fetches user GitHub profiles, original repositories, commits, and emails."
+          },
+          {
+            "id": "githubcompare",
+            "title": "GitHub Compare",
+            "url": "https://www.githubcompare.com/",
+            "description": "Compare GitHub repositories side by side to analyze differences in code, commits, issues, and more."
+          },
+          {
+            "id": "githubprofilesummary",
+            "title": "Profile Summary for GitHub",
+            "url": "https://profile-summary-for-github.com/search",
+            "description": "A tool to generate professional summaries and statistics based on your GitHub profile and activity."
+          },
+          {
+            "id": "repostimeline",
+            "title": "RepoTimeline",
+            "url": "https://repostimeline.nazifbara.com/",
+            "description": "Visual timeline of all activity on a GitHub repository, including commits, pull requests, issues, and more."
+          },
+          {
+            "id": "ossinsight",
+            "title": "OSSInsight",
+            "url": "https://ossinsight.io/",
+            "description": "Open-source software repository insights platform, offering detailed analytics on GitHub repositories."
+          }
+        ]        
+      },
+      {
+        id: "onlyfans-tools",
+        name: "OnlyFans",
+        resources: [
+          {
+            "id": "onlyfanssearchhubite",
+            "title": "OnlyFans Search - Hubite",
+            "url": "https://hubite.com/en/onlyfans-search/",
+            "description": "A tool to search for OnlyFans profiles and discover content creators based on keywords and filters."
+          },
+          {
+            "id": "onlyfinder",
+            "title": "OnlyFinder",
+            "url": "https://onlyfinder.com/",
+            "description": "A search engine dedicated to finding OnlyFans profiles, creators, and content."
+          },
+          {
+            "id": "onlysearch",
+            "title": "OnlySearch",
+            "url": "https://onlysearch.co/",
+            "description": "A platform to search for OnlyFans creators by username and explore available content."
+          },
+          {
+            "id": "fansmetrics",
+            "title": "FansMetrics",
+            "url": "https://fansmetrics.com/",
+            "description": "Provides analytics and insights on OnlyFans profiles, helping creators track their performance and growth."
+          },
+          {
+            "id": "onlyfanslegalguide",
+            "title": "OnlyFans Legal Guide",
+            "url": "https://onlyfans.com/legalguide/",
+            "description": "A legal guide for OnlyFans creators, offering information on contracts, rights, and platform policies."
+          }
+        ]        
+      },
+      {
+        id: "kik-tools",
+        name: "KIK Messenger",
+        resources: [
+          {
+            "id": "kikusernames",
+            "title": "Kik Usernames Search",
+            "url": "https://kikusernames.com/search",
+            "description": "A platform to search thousands of Kik usernames by username or location, helping users find new friends on Kik."
+          },
+          {
+            "id": "kikprofile",
+            "title": "Kik Profile",
+            "url": "https://kik.me/<username>",
+            "description": "Direct link to a user's Kik profile, where you can start a chat by entering their username."
           }
         ]
       }
