@@ -469,6 +469,12 @@ export const osintCategories: Category[] = [
         name: "WHOIS Lookups",
         resources: [
           {
+            "id": "whoisfreaks",
+            "title": "WhoisFreaks",
+            "url": "https://whoisfreaks.com/",
+            "description": "A Whois lookup tool that provides detailed domain registration information and IP lookup data."
+          },
+          {
             id: "whois",
             title: "WHOIS",
             url: "https://whois.domaintools.com",
@@ -487,22 +493,64 @@ export const osintCategories: Category[] = [
         name: "DNS Tools",
         resources: [
           {
-            id: "securitytrails",
-            title: "SecurityTrails",
-            url: "https://securitytrails.com",
-            description: "DNS historical data and domain intelligence."
+            "id": "passivedns",
+            "title": "PassiveDNS",
+            "url": "https://passivedns.mnemonic.no/",
+            "description": "A service that provides historical DNS resolution data, useful for tracking domain name resolution over time."
           },
           {
-            id: "dnsdumpster",
-            title: "DNSdumpster",
-            url: "https://dnsdumpster.com",
-            description: "DNS reconnaissance tool for discovering hosts."
+            "id": "hostio",
+            "title": "Host.io",
+            "url": "https://host.io/",
+            "description": "A DNS lookup tool that offers information about IP addresses, domain ownership, and associated subdomains."
           },
           {
-            id: "viewdns",
-            title: "ViewDNS.info",
-            url: "https://viewdns.info",
-            description: "Comprehensive domain research tools."
+            "id": "rapiddns",
+            "title": "RapidDNS",
+            "url": "https://rapiddns.io/",
+            "description": "A DNS search engine that helps to identify domain names, IP addresses, and associated information."
+          },
+          {
+            "id": "intodns",
+            "title": "IntoDNS",
+            "url": "https://intodns.com/",
+            "description": "A DNS diagnostic tool that checks the health of your domain and provides insights into DNS records and configurations."
+          },
+          {
+            "id": "viewdns",
+            "title": "ViewDNS",
+            "url": "https://viewdns.info/",
+            "description": "A tool for performing DNS lookups, reverse IP lookups, and other domain-related information queries."
+          },
+          {
+            "id": "dnslytics",
+            "title": "DNSlytics",
+            "url": "https://dnslytics.com/",
+            "description": "A DNS intelligence and threat analysis platform that provides data on IP addresses, domains, and DNS records."
+          },
+          {
+            "id": "dnstwister",
+            "title": "DNS Twister",
+            "url": "https://dnstwister.report/",
+            "description": "A service for discovering domain name typosquatting and homograph attacks through DNS analysis."
+          },
+          {
+            "id": "intelx-domain",
+            "title": "IntelX Domain Lookup",
+            "url": "https://intelx.io/tools?tab=domain",
+            "description": "A platform for gathering intelligence about domain names, IP addresses, and historical DNS data."
+          },
+          {
+            "id": "dnsinstitute",
+            "title": "DNS Institute",
+            "url": "https://www.dnsinstitute.com/",
+            "description": "An educational resource for DNS security, offering tools and training for managing DNS infrastructure."
+          },
+          {
+            "id": "completedns",
+            "title": "CompleteDNS",
+            "url": "https://completedns.com/",
+            "description": "A DNS management and lookup platform that offers detailed DNS information, including security and performance analysis."
           }
         ]
       },
@@ -511,22 +559,76 @@ export const osintCategories: Category[] = [
         name: "IP Lookup",
         resources: [
           {
-            id: "ipinfo",
-            title: "IPinfo",
-            url: "https://ipinfo.io",
-            description: "Accurate IP address location and data."
+            "id": "iknowwhatyoudownload",
+            "title": "I Know What You Download",
+            "url": "https://iknowwhatyoudownload.com/en/peer/",
+            "description": "A tool to check what users are downloading via P2P networks and provides detailed torrent information."
           },
           {
-            id: "shodan",
-            title: "Shodan",
-            url: "https://www.shodan.io",
-            description: "Search engine for internet-connected devices."
+            "id": "abuseipdb",
+            "title": "AbuseIPDB",
+            "url": "https://www.abuseipdb.com/",
+            "description": "A platform for reporting and checking IP addresses involved in malicious activities like hacking and spamming."
           },
           {
-            id: "censys",
-            title: "Censys",
-            url: "https://censys.io",
-            description: "Search engine for finding internet devices and networks."
+            "id": "bgphe",
+            "title": "BGP.he.net",
+            "url": "https://bgp.he.net/",
+            "description": "A BGP (Border Gateway Protocol) lookup tool that provides detailed information about IP ranges, ASNs, and network routes."
+          },
+          {
+            "id": "bgpview",
+            "title": "BGPView",
+            "url": "https://bgpview.io/",
+            "description": "A service that provides BGP route information, including ASN lookups, IP address ranges, and network details."
+          },
+          {
+            "id": "criminalip",
+            "title": "Criminal IP",
+            "url": "https://www.criminalip.io/",
+            "description": "A cybersecurity intelligence tool for discovering, identifying, and tracking criminal activity on the internet."
+          },
+          {
+            "id": "intelx",
+            "title": "IntelX IP Lookup",
+            "url": "https://intelx.io/tools?tab=ip",
+            "description": "A tool for looking up IP addresses and gathering intelligence about their related networks and ownership."
+          },
+          {
+            "id": "networksdb",
+            "title": "NetworksDB",
+            "url": "https://networksdb.io/",
+            "description": "A platform that provides network and IP data with detailed insights on who owns the IP and their related networks."
+          },
+          {
+            "id": "ipqualityscore",
+            "title": "IPQualityScore",
+            "url": "https://www.ipqualityscore.com/",
+            "description": "A fraud prevention and IP intelligence tool that analyzes IP addresses to detect fraudulent activity."
+          },
+          {
+            "id": "centralops",
+            "title": "CentralOps",
+            "url": "https://centralops.net/co/",
+            "description": "A suite of online tools for DNS lookups, whois searches, and IP address diagnostics."
+          },
+          {
+            "id": "infobyip",
+            "title": "InfoByIP IP Lookup",
+            "url": "https://www.infobyip.com/ipbulklookup.php",
+            "description": "A bulk IP lookup tool providing detailed information about IP addresses, including geolocation and ownership."
+          },
+          {
+            "id": "ipinfo",
+            "title": "IPinfo",
+            "url": "https://ipinfo.io/",
+            "description": "A service providing IP geolocation, ASN details, and various IP-related information."
+          },
+          {
+            "id": "ipapi",
+            "title": "IP-API",
+            "url": "https://ip-api.com/",
+            "description": "An IP geolocation service that provides detailed information about IP addresses such as city, country, and ISP."
           }
         ]
       }
