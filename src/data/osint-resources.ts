@@ -143,30 +143,6 @@ export const osintCategories: Category[] = [
             "description": "Online face search engine using facial recognition to find images of a person across the internet."
           }
         ]
-      },
-      {
-        id: "image-search",
-        name: "Image Search",
-        resources: [
-          {
-            id: "google-images",
-            title: "Google Images",
-            url: "https://images.google.com",
-            description: "Google's image search engine with reverse image search."
-          },
-          {
-            id: "tineye",
-            title: "TinEye",
-            url: "https://tineye.com",
-            description: "Reverse image search engine specialized in finding exact matches."
-          },
-          {
-            id: "yandex-images",
-            title: "Yandex Images",
-            url: "https://yandex.com/images",
-            description: "Powerful reverse image search from Russian search engine Yandex."
-          }
-        ]
       }
     ]
   },
