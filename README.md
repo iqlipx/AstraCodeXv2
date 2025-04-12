@@ -1,5 +1,5 @@
-## still in progress
+## Still in progress
 
-[] Search enginess
-[] Social Media
-[] Domain and IP Tools
+- [ ] Search enginess
+- [ ] Social Media
+- [ ] Domain and IP Tools
