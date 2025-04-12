@@ -174,27 +174,60 @@ export const osintCategories: Category[] = [
     id: "social-media-tools",
     name: "Social Media Tools",
     subfolders: [
-      {
-        id: "twitter-tools",
-        name: "Twitter Tools",
-        resources: [
+        
           {
-            id: "tweetdeck",
-            title: "TweetDeck",
-            url: "https://tweetdeck.twitter.com",
-            description: "Dashboard for managing Twitter accounts and monitoring content."
+            id: "nitter",
+            title: "Nitter",
+            url: "https://nitter.net/",
+            description: "Privacy-respecting front-end for Twitter that doesn't require JavaScript or an account."
           },
           {
-            id: "trendsmap",
-            title: "Trendsmap",
-            url: "https://trendsmap.com",
-            description: "Real-time local Twitter trends visualization on a map."
+            id: "heavytweetmap",
+            title: "Heavy.AI TweetMap",
+            url: "https://www.heavy.ai/demos/tweetmap",
+            description: "Real-time map that visualizes geotagged tweets for trend analysis and monitoring."
           },
           {
-            id: "twitonomy",
-            title: "Twitonomy",
-            url: "https://twitonomy.com",
-            description: "Twitter analytics tool providing insights on accounts and tweets."
+            id: "onemilliontweetmap",
+            title: "One Million Tweet Map",
+            url: "https://onemilliontweetmap.com/",
+            description: "Live map showing the most recent tweets around the world using geolocation."
+          },
+          {
+            id: "twittervideodownloader",
+            title: "Twitter Video Downloader",
+            url: "https://twittervideodownloader.com/",
+            description: "Tool to download videos from Twitter by pasting the tweet URL."
+          },
+          {
+            id: "birdhunt",
+            title: "BirdHunt",
+            url: "https://birdhunt.huntintel.io/",
+            description: "OSINT tool to search Twitter for images, keywords, and accounts."
+          },
+          {
+            id: "twitterimagesearch",
+            title: "Twitter Image Search (Google CSE)",
+            url: "https://cse.google.com/cse?cx=006290531980334157382:_ltcjq0robu#gsc.tab=0",
+            description: "Google Custom Search Engine to find images posted on Twitter."
+          },
+          {
+            id: "botometer",
+            title: "Botometer",
+            url: "https://botometer.osome.iu.edu/",
+            description: "Tool that checks the activity of a Twitter account and gives it a score for how likely it is to be a bot."
+          },
+          {
+            id: "intelx_twitter",
+            title: "IntelX Twitter Tools",
+            url: "https://intelx.io/tools?tab=twitter",
+            description: "Collection of Twitter OSINT tools from Intelligence X for analysis and discovery."
+          },
+          {
+            id: "exportdata",
+            title: "ExportData.io",
+            url: "https://www.exportdata.io/",
+            description: "Extract and export Twitter data including followers, likes, and more."
           }
         ]
       },
