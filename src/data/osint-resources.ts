@@ -634,61 +634,6 @@ export const osintCategories: Category[] = [
       }
     ]
   },
-  // New categories start here
-  {
-    id: "darkweb-tools",
-    name: "Dark Web Tools",
-    subfolders: [
-      {
-        id: "tor-resources",
-        name: "Tor Resources",
-        resources: [
-          {
-            id: "tor-project",
-            title: "Tor Project",
-            url: "https://www.torproject.org",
-            description: "Official Tor browser and documentation for anonymous browsing."
-          },
-          {
-            id: "tails",
-            title: "Tails OS",
-            url: "https://tails.boum.org",
-            description: "Live operating system for privacy and anonymity, recommended for dark web investigations."
-          },
-          {
-            id: "onion-search",
-            title: "Ahmia.fi",
-            url: "https://ahmia.fi",
-            description: "Search engine for Tor hidden services that can be accessed through regular browsers."
-          }
-        ]
-      },
-      {
-        id: "darkweb-monitoring",
-        name: "Dark Web Monitoring",
-        resources: [
-          {
-            id: "torch",
-            title: "Torch",
-            url: "http://xmh57jrzrnw6insl.onion", // Note: .onion links require Tor browser to access
-            description: "One of the oldest dark web search engines (requires Tor browser)."
-          },
-          {
-            id: "hunchly",
-            title: "Hunchly",
-            url: "https://www.hunch.ly",
-            description: "Dark web monitoring and capture tool for OSINT researchers."
-          },
-          {
-            id: "darkwebid",
-            title: "DarkWebID",
-            url: "https://www.darkwebid.com",
-            description: "Dark web threat intelligence and monitoring service."
-          }
-        ]
-      }
-    ]
-  },
   {
     id: "data-leaks",
     name: "Data Leaks & Breaches",
@@ -698,256 +643,286 @@ export const osintCategories: Category[] = [
         name: "Breach Databases",
         resources: [
           {
-            id: "haveibeenpwned",
-            title: "Have I Been Pwned",
-            url: "https://haveibeenpwned.com",
-            description: "Check if email addresses or phone numbers have been compromised in data breaches."
+            "id": "pentester",
+            "title": "Pentester",
+            "url": "https://pentester.com",
+            "description": "Breach monitoring tool designed for penetration testers and security researchers."
           },
           {
-            id: "dehashed",
-            title: "DeHashed",
-            url: "https://dehashed.com",
-            description: "Search engine for data breaches and leaked credentials (paid service)."
+            "id": "haveibeenpwned",
+            "title": "Have I Been Pwned",
+            "url": "https://haveibeenpwned.com/",
+            "description": "Check if your email or phone number has been part of a data breach."
           },
           {
-            id: "scylla",
-            title: "Scylla.sh",
-            url: "https://scylla.sh",
-            description: "Database of breached credentials and personal information (requires registration)."
-          }
-        ]
-      },
-      {
-        id: "leak-monitoring",
-        name: "Leak Monitoring",
-        resources: [
-          {
-            id: "vigilante",
-            title: "Vigilante.pw",
-            url: "https://vigilante.pw",
-            description: "Database breach index with information on data breaches."
+            "id": "dehashed",
+            "title": "DeHashed",
+            "url": "https://www.dehashed.com/",
+            "description": "Advanced search engine for breached data, leaked databases, and more."
           },
           {
-            id: "leakix",
-            title: "LeakIX",
-            url: "https://leakix.net",
-            description: "Search engine indexing publicly exposed information."
+            "id": "leakpeek",
+            "title": "LeakPeek",
+            "url": "https://leakpeek.com/",
+            "description": "Find leaked information from various sources, including breached databases."
           },
           {
-            id: "ghostproject",
-            title: "GhostProject",
-            url: "https://ghostproject.fr",
-            description: "Search for compromised email accounts and passwords."
+            "id": "breachdirectory",
+            "title": "BreachDirectory",
+            "url": "https://breachdirectory.org/",
+            "description": "Database search tool for compromised email addresses and passwords."
+          },
+          {
+            "id": "intelx",
+            "title": "Intelligence X",
+            "url": "https://intelx.io/",
+            "description": "Search engine for breached data, leaked files, and darknet content."
+          },
+          {
+            "id": "leakcheck",
+            "title": "LeakCheck",
+            "url": "https://leakcheck.io/",
+            "description": "Service for checking leaked credentials, personal information, and more."
+          },
+          {
+            "id": "haveibeenzuckered",
+            "title": "Have I Been Zuckered",
+            "url": "https://haveibeenzuckered.com/",
+            "description": "Tool for checking if your Facebook data has been leaked online."
+          },
+          {
+            "id": "ddosecrets",
+            "title": "DDoSecrets",
+            "url": "https://ddosecrets.com/all_categories",
+            "description": "Transparency collective sharing leaked data from various sources."
+          },
+          {
+            "id": "darkeye",
+            "title": "DarkEye",
+            "url": "https://darkeye.org/search",
+            "description": "Search tool for discovering compromised data across multiple sources."
+          },
+          {
+            "id": "proxynova",
+            "title": "ProxyNova",
+            "url": "https://www.proxynova.com/tools/comb/",
+            "description": "Tool for searching compromised combos and leaked information."
+          },
+          {
+            "id": "vxintelligence",
+            "title": "VX Intelligence",
+            "url": "https://vxintelligence.com/",
+            "description": "Platform providing insights into compromised data and breach analysis."
+          },
+          {
+            "id": "breachvip",
+            "title": "Breach VIP",
+            "url": "https://breach.vip/",
+            "description": "Service providing access to premium breached data sources."
+          },
+          {
+            "id": "alertsbar",
+            "title": "Alerts Bar",
+            "url": "https://www.alerts.bar/",
+            "description": "Online tool for monitoring data breaches and leaked credentials."
           }
         ]
       }
     ]
   },
   {
-    id: "public-records",
-    name: "Public Records",
+    id: "business-intelligence",
+    name: "Business Intelligence",
     subfolders: [
       {
         id: "business-records",
         name: "Business Records",
         resources: [
           {
-            id: "opencorporates",
-            title: "OpenCorporates",
-            url: "https://opencorporates.com",
-            description: "Largest open database of companies and corporate data worldwide."
+            "id": "crunchbase",
+            "title": "Crunchbase",
+            "url": "https://www.crunchbase.com/",
+            "description": "Business intelligence platform providing company insights, funding, and leadership details."
           },
           {
-            id: "edgar",
-            title: "SEC EDGAR",
-            url: "https://www.sec.gov/edgar.shtml",
-            description: "U.S. Securities and Exchange Commission database for public company filings."
+            "id": "opencorporates",
+            "title": "OpenCorporates",
+            "url": "https://opencorporates.com/",
+            "description": "Largest open database of companies worldwide, providing corporate records and ownership details."
           },
           {
-            id: "companyhouse",
-            title: "Companies House",
-            url: "https://find-and-update.company-information.service.gov.uk",
-            description: "UK's registrar of companies with free company information."
+            "id": "dnb",
+            "title": "Dun & Bradstreet (D&B)",
+            "url": "https://www.dnb.com/",
+            "description": "Global business directory offering financial, risk, and corporate data insights."
+          },
+          {
+            "id": "gleif",
+            "title": "GLEIF",
+            "url": "https://search.gleif.org/#/search/",
+            "description": "Global Legal Entity Identifier Foundation (GLEIF) search for corporate LEIs."
+          },
+          {
+            "id": "openleis",
+            "title": "Open LEIs",
+            "url": "http://openleis.com/",
+            "description": "Search for Legal Entity Identifiers (LEIs) of registered businesses worldwide."
+          },
+          {
+            "id": "bizdirlib",
+            "title": "BizDirLib",
+            "url": "https://bizdirlib.com/country",
+            "description": "Global business directory providing company listings by country."
+          },
+          {
+            "id": "panjiva",
+            "title": "Panjiva",
+            "url": "https://panjiva.com/search",
+            "description": "Global trade intelligence platform tracking import/export shipments."
+          },
+          {
+            "id": "opensanctions",
+            "title": "OpenSanctions",
+            "url": "https://www.opensanctions.org/",
+            "description": "Database of sanctioned individuals, organizations, and entities worldwide."
+          },
+          {
+            "id": "tendersinfo",
+            "title": "Tendersinfo",
+            "url": "https://www.tendersinfo.com/",
+            "description": "Global database for government and private sector tenders and procurement opportunities."
+          },
+          {
+            "id": "propublica-nonprofits",
+            "title": "ProPublica Nonprofits",
+            "url": "https://projects.propublica.org/nonprofits/",
+            "description": "Database of U.S. nonprofit organizations with financial and operational details."
           }
         ]
       },
       {
-        id: "property-records",
-        name: "Property Records",
+        id: "patents-trademark",
+        name: "Patents & Trademark",
         resources: [
           {
-            id: "zillow",
-            title: "Zillow",
-            url: "https://www.zillow.com",
-            description: "Property database with home values, sales records, and ownership information."
+            "id": "google-patents",
+            "title": "Google Patents",
+            "url": "https://patents.google.com/",
+            "description": "Search engine for global patent data including full-text and legal status."
           },
           {
-            id: "propertyshark",
-            title: "PropertyShark",
-            url: "https://www.propertyshark.com",
-            description: "Real estate database with property values, ownership, and records."
+            "id": "uspto-report",
+            "title": "USPTO Report",
+            "url": "https://uspto.report/",
+            "description": "Patent and trademark lookup tool for the U.S. Patent and Trademark Office (USPTO)."
           },
           {
-            id: "county-assessors",
-            title: "NETR Online",
-            url: "https://publicrecords.netronline.com",
-            description: "Directory of county tax assessors, links to county property records."
-          }
-        ]
-      },
-      {
-        id: "court-records",
-        name: "Court Records",
-        resources: [
-          {
-            id: "pacer",
-            title: "PACER",
-            url: "https://pacer.uscourts.gov",
-            description: "Public Access to Court Electronic Records for U.S. federal court documents."
+            "id": "espacenet",
+            "title": "Espacenet",
+            "url": "https://worldwide.espacenet.com/",
+            "description": "European Patent Office database offering global patent searches and data analysis tools."
           },
           {
-            id: "justia",
-            title: "Justia Dockets",
-            url: "https://dockets.justia.com",
-            description: "Free access to federal court dockets and filings."
+            "id": "wipo-branddb",
+            "title": "WIPO Global Brand Database",
+            "url": "https://www3.wipo.int/branddb/en/",
+            "description": "Searchable database of international trademarks, appellations of origin, and emblems maintained by WIPO."
           },
           {
-            id: "unicourt",
-            title: "UniCourt",
-            url: "https://unicourt.com",
-            description: "Access to state and federal court records (paid service)."
+            "id": "us-copyright-catalog",
+            "title": "U.S. Copyright Catalog",
+            "url": "https://cocatalog.loc.gov/cgi-bin/Pwebrecon.cgi?DB=local&PAGE=First",
+            "description": "Library of Congress catalog for searching U.S. copyright registrations and records."
           }
         ]
       }
     ]
   },
   {
-    id: "cryptocurrency-tools",
-    name: "Cryptocurrency Analysis",
+    id: "username",
+    name: "Username Search",
     subfolders: [
       {
-        id: "blockchain-explorers",
-        name: "Blockchain Explorers",
+        id: "username-enumeration",
+        name: "Username Enumeration",
         resources: [
           {
-            id: "blockchair",
-            title: "Blockchair",
-            url: "https://blockchair.com",
-            description: "Multi-blockchain search engine and analytics platform for Bitcoin, Ethereum, and more."
+            "id": "idcrawl-username-search",
+            "title": "IDCrawl",
+            "url": "https://www.idcrawl.com/username-search",
+            "description": "A tool that uncovers social media profiles and real people behind a username across various platforms."
           },
           {
-            id: "etherscan",
-            title: "Etherscan",
-            url: "https://etherscan.io",
-            description: "Ethereum blockchain explorer, search, API, and analytics platform."
+            "id": "osintrocks",
+            "title": "osint.rocks",
+            "url": "https://osint.rocks/",
+            "description": "Provides web-based access to the Sherlock and Maigret tools for username searches across social networks and websites."
           },
           {
-            id: "tokenview",
-            title: "Tokenview",
-            url: "https://tokenview.com",
-            description: "Multi-cryptocurrency block explorer with address monitoring features."
-          }
-        ]
-      },
-      {
-        id: "transaction-analysis",
-        name: "Transaction Analysis",
-        resources: [
-          {
-            id: "chainalysis",
-            title: "Chainalysis",
-            url: "https://www.chainalysis.com",
-            description: "Blockchain analysis company providing software for cryptocurrency compliance and investigation."
+            "id": "whatsmyname",
+            "title": "WhatsMyName",
+            "url": "https://whatsmyname.app",
+            "description": "Username enumeration across multiple platforms."
           },
           {
-            id: "crystalblockchain",
-            title: "Crystal Blockchain",
-            url: "https://crystalblockchain.com",
-            description: "Blockchain analytics platform for cryptocurrency AML compliance."
+            "id": "sherlock",
+            "title": "Sherlock",
+            "url": "https://github.com/sherlock-project/sherlock",
+            "description": "Hunt down social media accounts by username across social networks."
           },
           {
-            id: "oxt",
-            title: "OXT",
-            url: "https://oxt.me",
-            description: "Bitcoin blockchain explorer and research platform for chain analysis."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    id: "people-search",
-    name: "People Search",
-    subfolders: [
-      {
-        id: "people-search-engines",
-        name: "People Search Engines",
-        resources: [
-          {
-            id: "whitepages",
-            title: "Whitepages",
-            url: "https://www.whitepages.com",
-            description: "Directory of contact information for people and businesses."
+            "id": "maigret",
+            "title": "Maigret",
+            "url": "https://github.com/soxoj/maigret",
+            "description": "Collects a dossier on a person by username from thousands of sites."
           },
           {
-            id: "truepeoplesearch",
-            title: "TruePeopleSearch",
-            url: "https://www.truepeoplesearch.com",
-            description: "Free people search tool for finding contact information and addresses."
+            "id": "blackbird",
+            "title": "Blackbird",
+            "url": "https://github.com/p1ngul1n0/blackbird",
+            "description": "Username search tool that analyzes social media platforms for user profiles."
           },
           {
-            id: "spokeo",
-            title: "Spokeo",
-            url: "https://www.spokeo.com",
-            description: "People search engine for finding contact information, social profiles, and more."
-          }
-        ]
-      },
-      {
-        id: "background-checks",
-        name: "Background Checks",
-        resources: [
-          {
-            id: "beenverified",
-            title: "BeenVerified",
-            url: "https://www.beenverified.com",
-            description: "Background check service for people search, contact info, and criminal records."
+            "id": "socialcatfish",
+            "title": "Social Catfish",
+            "url": "https://socialcatfish.com/",
+            "description": "Find people online by username, email, phone, or image search."
           },
           {
-            id: "intelius",
-            title: "Intelius",
-            url: "https://www.intelius.com",
-            description: "Background check service for people search and public records."
+            "id": "192com",
+            "title": "192.com",
+            "url": "https://www.192.com/",
+            "description": "UK-based people search tool providing addresses, phone numbers, and business records."
           },
           {
-            id: "truthfinder",
-            title: "TruthFinder",
-            url: "https://www.truthfinder.com",
-            description: "Background check service for public records and criminal history."
-          }
-        ]
-      },
-      {
-        id: "social-analysis",
-        name: "Social Media Analysis",
-        resources: [
-          {
-            id: "socialbearing",
-            title: "Social Bearing",
-            url: "https://socialbearing.com",
-            description: "Twitter analytics, insights, and searches for finding people and monitoring profiles."
+            "id": "bellingcat-name-variant",
+            "title": "Bellingcat Name Variant Search",
+            "url": "https://bellingcat.github.io/name-variant-search",
+            "description": "Searches multiple name variations across different languages."
           },
           {
-            id: "followerwonk",
-            title: "Followerwonk",
-            url: "https://followerwonk.com",
-            description: "Twitter analytics tool for searching bios, comparing users, and tracking followers."
+            "id": "fastpeoplesearch",
+            "title": "Fast People Search",
+            "url": "https://www.fastpeoplesearch.com/",
+            "description": "Finds people addresses, phone numbers, and email records in the US."
           },
           {
-            id: "socialmention",
-            title: "Social Mention",
-            url: "http://socialmention.com",
-            description: "Social media search engine that monitors user mentions across platforms."
+            "id": "intelx-username",
+            "title": "IntelX Username Search",
+            "url": "https://intelx.io/tools?tab=username",
+            "description": "Find usernames across multiple data sources with IntelX tools."
+          },
+          {
+            "id": "intelx-person",
+            "title": "IntelX Person Search",
+            "url": "https://intelx.io/tools?tab=person",
+            "description": "Searches for people using IntelX intelligence database."
+          },
+          {
+            "id": "publicrecords-searchsystems",
+            "title": "Public Records Search Systems",
+            "url": "https://publicrecords.searchsystems.net/",
+            "description": "Search for public records, including business, criminal, and government data."
           }
         ]
       }
@@ -1002,84 +977,6 @@ export const osintCategories: Category[] = [
             title: "Xpdf Tools",
             url: "https://www.xpdfreader.com/tools.html",
             description: "Open-source tools for PDF document examination and extraction."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    id: "threat-intelligence",
-    name: "Threat Intelligence",
-    subfolders: [
-      {
-        id: "malware-analysis",
-        name: "Malware Analysis",
-        resources: [
-          {
-            id: "virustotal",
-            title: "VirusTotal",
-            url: "https://www.virustotal.com",
-            description: "Website for analyzing suspicious files, URLs, domains, and IP addresses."
-          },
-          {
-            id: "hybrid-analysis",
-            title: "Hybrid Analysis",
-            url: "https://www.hybrid-analysis.com",
-            description: "Free malware analysis service with sandbox capabilities."
-          },
-          {
-            id: "urlscan",
-            title: "URLScan.io",
-            url: "https://urlscan.io",
-            description: "Website scanning service for analyzing suspicious and malicious URLs."
-          }
-        ]
-      },
-      {
-        id: "threat-feeds",
-        name: "Threat Feeds",
-        resources: [
-          {
-            id: "otx",
-            title: "AlienVault OTX",
-            url: "https://otx.alienvault.com",
-            description: "Open Threat Exchange platform for sharing threat intelligence."
-          },
-          {
-            id: "threatcrowd",
-            title: "ThreatCrowd",
-            url: "https://www.threatcrowd.org",
-            description: "Search engine for threat intelligence with visualizations."
-          },
-          {
-            id: "misp",
-            title: "MISP",
-            url: "https://www.misp-project.org",
-            description: "Open-source threat intelligence platform for sharing, storing, and correlating IOCs."
-          }
-        ]
-      },
-      {
-        id: "phishing-analysis",
-        name: "Phishing Analysis",
-        resources: [
-          {
-            id: "phishtank",
-            title: "PhishTank",
-            url: "https://phishtank.org",
-            description: "Community-based phishing site verification and reporting service."
-          },
-          {
-            id: "openphish",
-            title: "OpenPhish",
-            url: "https://openphish.com",
-            description: "Phishing intelligence and feed of phishing URLs."
-          },
-          {
-            id: "checkphish",
-            title: "CheckPhish",
-            url: "https://checkphish.ai",
-            description: "AI-powered phishing URL detection and analysis tool."
           }
         ]
       }
